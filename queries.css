@@ -1,0 +1,166 @@
+@media (max-width: 84em) {
+  .header__img {
+    width: 100%;
+  }
+  p {
+    font-size: 1.4rem;
+  }
+  .attractions__feature {
+    width: 80%;
+  }
+}
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .attractions {
+    align-items: center;
+    justify-content: center;
+  }
+  .attractions__header {
+    line-height: 3rem;
+  }
+  .attractions__feature {
+    width: 90%;
+  }
+}
+/* ////////////////////// */
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.6rem;
+  }
+  .attractions {
+    align-items: center;
+    justify-content: center;
+    margin: 0 4rem;
+  }
+  .attractions__header {
+    line-height: 3rem;
+  }
+}
+
+@media (max-width: 50em) {
+  h1 {
+    font-size: 4.8rem;
+  }
+  h4 {
+    font-size: 1.8rem;
+  }
+  h3 {
+    text-align: center;
+  }
+  .header__title {
+    flex: 1;
+    max-width: 115rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .header__img {
+    width: 60%;
+  }
+  .attractions {
+    display: flex;
+    flex-direction: column;
+  }
+  .attractions__feature {
+    width: 90%;
+  }
+  .attractions :nth-child(1) {
+    order: 1;
+  }
+  .attractions :nth-child(2) {
+    order: 2;
+  }
+  .attractions :nth-child(3) {
+    order: 4;
+  }
+  .attractions :nth-child(4) {
+    order: 3;
+  }
+  .attractions :nth-child(5) {
+    order: 5;
+  }
+  .attractions :nth-child(6) {
+    order: 6;
+  }
+}
+
+@media (max-width: 40em) {
+  .nav_contact {
+    display: none;
+  }
+}
+
+@media (max-width: 34em) {
+  .section {
+    padding: 10rem 0;
+  }
+  h2 {
+    margin-left: 3rem;
+  }
+  .nav {
+    padding: 1rem;
+  }
+  .footer__nav {
+    flex-direction: row;
+
+    justify-content: space-around;
+    padding-left: 3.2rem;
+  }
+  .footer {
+    padding: 8rem 3rem;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  .header__img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 28em) {
+  .testimonial__text {
+    font-size: 1.5rem;
+  }
+  .testimonial__location {
+    padding-bottom: 5rem;
+  }
+  .attractions {
+    margin: 0 3rem;
+  }
+  p {
+    line-height: 1.5;
+  }
+  .food_description {
+    font-size: 1.3rem;
+  }
+  .nav__logo {
+    height: 9rem;
+  }
+  .testimonial__text {
+    font-size: 1.3rem;
+  }
+  .testimonial__header {
+    font-size: 2rem;
+  }
+  .header__img {
+    width: 80%;
+  }
+  .header {
+    padding: 0 1rem;
+  }
+  .nav {
+    padding: 0.5rem;
+  }
+}

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <title>The beauty of Andalucia</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header" id="section--0">
+      <nav class="nav">
+        <a class="nav__logo_link" href="#">
+          <img
+            src="img/logo.png"
+            alt="Andalucia logo"
+            class="nav__logo"
+            id="logo"
+          />
+        </a>
+
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Attractions</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Food</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Testimonials</a>
+          </li>
+          <li class="nav__item nav_contact">
+            <a
+              class="nav__link nav__link--btn btn--show-modal"
+              href="#section--0"
+              >Book</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          Why
+          <span class="highlight">Andalucia</span>
+          is so <br />
+          <span class="highlight">unique</span>
+        </h1>
+        <h4>
+          Andalucia represents Spain at its hottest and most passionate. History
+          and culture have conspired to leave a deep imprint on this rugged,
+          arid land, where medieval castles cling to precipitous crags and broad
+          beaches hug both Atlantic and Mediterranean shores.
+        </h4>
+        <button class="btn--text btn--scroll-to">
+          Top attractions &DownArrow;
+        </button>
+        <img src="img/hero.png" class="header__img" alt="Andalucia flag" />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description andalucia">
+          Top Attractions in Andalucia
+        </h2>
+        <h3 class="section__header">The spirit of southern Spain</h3>
+      </div>
+
+      <div class="attractions">
+        <img
+          src="img/alcazar-lazy.jpg"
+          data-src="img/alcazar.jpg"
+          alt="Real Alcazar de Sevilla"
+          class="attractions__img lazy-img"
+        />
+        <div class="attractions__feature">
+          <h5 class="attractions__header">1. Real Alcazar de Sevilla</h5>
+          <p>
+            Designated a UNESCO World Heritage Site, the
+            <strong>Royal Alcázar of Seville</strong> is the oldest royal palace
+            in Europe that is still in use today. It dates back to the 11th
+            century, when the Muslim authorities decided to build a fortress in
+            a strategic location to protect the city.<br />
+            The grounds of the Royal Alcázar are made up of various palaces and
+            gardens that were designed in different historical periods. That is
+            why its architecture is so varied, combining
+            <strong>Islamic, Gothic, Renaissance, Baroque,</strong> and
+            <strong>Romantic </strong>
+            elements, as well as some of the finest examples of Mudéjar art,
+            which is the product of both Islamic and Christian cultures.
+          </p>
+        </div>
+
+        <div class="attractions__feature">
+          <h5 class="attractions__header">2. The Alhambra</h5>
+          <p>
+            Declared as a Unesco World Heritage Site,
+            <strong>Alhambra</strong> is the most visited monument in Spain.
+            Named after its reddish walls, Alhambra, magnificently stands on the
+            top of the hill of al-Sabica, on the left bank of the river Darro,
+            offering a breathtaking panoramic view of the city of Granada.
+            <br />“I do not know what to call this land upon which I stand. If
+            what is beneath my feet is paradise, then what is the Alhambra?
+            Heaven?” wrote the Golden Age Spanish novelist
+            <strong>Lope de Vega</strong> when he first visited Alhambra Palace.
+          </p>
+        </div>
+        <img
+          src="img/alh-lazy.jpg"
+          data-src="img/alh.jpg"
+          alt="The Alhambra"
+          class="attractions__img lazy-img alh"
+        />
+
+        <img
+          src="img/cabo-lazy.jpg"
+          data-src="img/cabo.jpg"
+          alt="Cabo de gata natural park"
+          class="attractions__img lazy-img"
+        />
+        <div class="attractions__feature">
+          <h5 class="attractions__header">Cabo de Gata</h5>
+          <p>
+            The Cabo de Gata-Níjar <strong>Natural Park</strong> is most
+            definitely a sight to behold. In spite of the many photographs and
+            videos you may have seen of this conservation area, you will be
+            blown away by the majestic sights and sounds it provides when you
+            witness it first-hand. <br />
+            <strong>Cabo de Gata</strong> is heralded for its wild beaches, hot,
+            desert-like micro-climate and briny salt flats replete with
+            flamingos. You can walk along the coast for over 60km linking a
+            necklace of fishing towns and artistic communities little touched by
+            Andalucia’s modern building boom.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">What to eat</h2>
+        <h3 class="section__header">Food, glorious food</h3>
+      </div>
+
+      <div class="food">
+        <div class="food__tab-container">
+          <button
+            class="btn food__tab food__tab--1 food__tab--active"
+            data-tab="1"
+          >
+            Best Snack
+          </button>
+          <button class="btn food__tab food__tab--2" data-tab="2">
+            Best Ham
+          </button>
+          <button class="btn food__tab food__tab--3" data-tab="3">
+            Free food?
+          </button>
+        </div>
+        <div class="food__content food__content--1 food__content--active">
+          <p class="food_description">
+            <strong>Churros</strong>, a Spanish snack extraordinaire, deep-fried
+            strips of gooey dough traditionally dipped in cups of thick hot
+            chocolate and best enjoyed in the alfresco cafes of Granada and
+            Málaga
+          </p>
+          <img src="img/ch.jpg" class="ch__img" alt="picture of churros" />
+        </div>
+
+        <div class="food__content food__content--2">
+          <p class="food_description">
+            <strong>Jamón ibérico</strong>, Spain’s best ham is widely
+            considered to be the rich nutty jamón ibérico manufactured in Huelva
+            province from black Iberian pigs that roam freely in the pastures of
+            the Sierra de Aracena, surviving on a diet of acorns.
+          </p>
+          <img
+            src="img/ham.jpg"
+            class="ch__img"
+            alt="picture of jamon iberico"
+          />
+        </div>
+        <div class="food__content food__content--3">
+          <p class="food_description">
+            <strong>Tapas</strong>, the best introduction to authentic
+            Andalusian food. Tapas are small portions of foods, both hot and
+            cold, served in bars, bodegas and tascas to accompany a copa of
+            fino, dry Spanish Sherry, or draught beer.
+          </p>
+          <img src="img/tapas.jpg" class="ch__img" alt="picture of tapas" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Not sure yet?</h2>
+        <h3 class="section__header">
+          Millions of tourists are visiting Andalusia!
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Marvelous Granada!</h5>
+            <blockquote class="testimonial__text">
+              The Alhambra is one of the sights one must visit in their
+              lifetime. It is an amazing place. The fort, the palaces, the
+              gardens, the architecture, everything is so wonderful! Within the
+              whole complex of buildings there are countless rooms, patios,
+              fountains, gardens, baths, towers, and the list is practically
+              endless. Words do not do it justice.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Brian Allen</h6>
+              <p class="testimonial__location">Oxford, UK</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Breathtaking yet peaceful!</h5>
+            <blockquote class="testimonial__text">
+              As a visitor to Seville, you must not leave without seeing the
+              Alcázar. It's located right next door to the Cathedral/Giralda.
+              It's apparently one of the oldest royal residences in Europe. The
+              architecture and decor are sublime - a mixture of
+              Moorish/Gothic/Islam. The work that went into the decoration just
+              can't be comprehended - the plaster work is unbelievable. Outside,
+              the gardens are a sight to behold with the scent of strong jasmine
+              following you everywhere.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Barbara Lowe</h6>
+              <p class="testimonial__location">San Francisco, CA</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Some of the best unspoilt European beaches.
+            </h5>
+            <blockquote class="testimonial__text">
+              The Natural Park of Cabo de Gata Nijar is a treasure that remained
+              intact for thousands of years, may be due to the fact that it is
+              still Spain's best kept secret. The visitor will enjoy black, lava
+              cliffs and unspoilt beaches, while he discovers a moonlike
+              landscape.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Thomas Brown</h6>
+              <p class="testimonial__location">London, UK</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">Did you visit Andalucia?</h3>
+      </div>
+      <button class="btn btn--show-modal">Book a trip</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <img src="img/logo.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        &copy; Copyright by
+        <a class="footer__link twitter-link" target="_blank" href="#"
+          >Sry<br />
+          Coloured background vector created by macrovector - www.freepik.com</a
+        >
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Book your trip <br />
+        in <span class="highlight">Andalucia</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Book now &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>
